@@ -1,0 +1,5 @@
+echo "The contents of USER are $USER"
+echo "The contents of HOME are $HOME"
+echo "The contents of SHELL are $SHELL"
+echo "The contents of PWD are $PWD"
+echo "The contents of PATH are $PATH"

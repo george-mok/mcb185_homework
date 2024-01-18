@@ -1,0 +1,1 @@
+gunzip -c dictionary.gz | grep -E "^[zonriac][zonriac]+[zonriac]$" | grep -v "^...$" | grep -E "^.*r.*$"

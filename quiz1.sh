@@ -3,4 +3,9 @@ echo 'User: george-mok'
 
 #Task 3 Bee
 
-gunzip -c dictionary.gz | grep -E "^[autofcm]{4,}$" | grep -E "^.*a.*$"
+gunzip -c dictionary.gz | grep -E "^[autofcm]{4,}$" | grep -E "a"
+
+#Task 4 More Bees
+
+gunzip -c dictionary.gz | grep -E "^[bailnrt]{4,}$" | grep -E "b"
+

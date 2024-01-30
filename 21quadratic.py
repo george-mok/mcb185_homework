@@ -6,7 +6,7 @@ import sys
 # Solves real roots for quadratic formula: ax^2 + bx + c
 
 def quadratic(a, b, c):
-	if (b**2 - 4*a*c) < 0:
+	if b**2 - 4*a*c < 0:
 		return 'None, None'
 	if b**2 - 4*a*c == 0:
 		x = (((-1)*b) + math.sqrt((b**2) - 4*a*c)/(2*a))

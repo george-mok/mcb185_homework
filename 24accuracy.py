@@ -4,8 +4,8 @@ import math
 import sys
 
 """
-Calculates accuracy and F1 score from true positives (TP), 
-true negatives, (TN) false positives (FP), and false negatives (FN).
+Calculates accuracy and F1 score from true positives(TP), 
+true negatives(TN), false positives(FP), and false negatives(FN).
 """
 # F1 score = TP/(TP + 0.5(FP + FN))
 # Output in form: (accuracy, F1 score)

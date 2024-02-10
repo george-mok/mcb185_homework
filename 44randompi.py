@@ -7,7 +7,7 @@ total = 0
 while True:
 	x = random.random()
 	y = random.random()
-	dist = (x**2 + y**2)**2
+	dist = (x**2 + y**2)**(1/2)
 	if dist < 1:
 		inside += 1
 		total += 1

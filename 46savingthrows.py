@@ -7,7 +7,7 @@ import random
 
 trials = 1000
 
-for i in range(5, 16, 5):							#advantage dc of 5,10,&15.
+for i in range(5, 16, 5):							#advantage dc of 5, 10, & 15.
 	print(i, end='\t')
 	success = 0
 	for n in range(trials):

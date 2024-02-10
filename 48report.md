@@ -9,7 +9,7 @@
 
 ## 46savingthrows.py
 
-DC	|	Normal	|	Adv		| 	Dis
+dc	|	normal	|	adv		|	dis
 ----|	-----	|	----	|	----
 5	|	0.806	|	0.957	|	0.647
 10	|	0.519	|	0.785	|	0.285
@@ -17,6 +17,6 @@ DC	|	Normal	|	Adv		| 	Dis
 
 ## 47deathsaves.py
 
-Deaths: 0.3997  
-Stabilizations: 0.4155  
-Revives: 0.1848  
+deaths: 0.3997  
+stabilizations: 0.4155  
+revives: 0.1848  

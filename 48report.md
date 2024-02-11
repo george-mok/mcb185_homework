@@ -2,10 +2,12 @@
 
 ## 45dndstats.py
 
-3D6: 10.5057  
-3D6r1: 11.712  
-3D6x2: 13.4176  
-4D6: 12.2143  
+### Average Stat Value for Different Rolling Algorithms
+
+- 3D6: 10.5057  
+- 3D6r1: 11.712  
+- 3D6x2: 13.4176  
+- 4D6: 12.2143  
 
 ## 46savingthrows.py
 
@@ -17,6 +19,8 @@ dc  |   normal  |    adv    |   dis
 
 ## 47deathsaves.py
 
-deaths: 0.3997  
-stabilizations: 0.4155  
-revives: 0.1848  
+### Probability of Each Death Save Scenario
+
+- deaths: 0.3997  
+- stabilizations: 0.4155  
+- revives: 0.1848  

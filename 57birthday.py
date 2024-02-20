@@ -12,7 +12,7 @@ for i in range(trials):
 	calender = []
 	for j in range(days+1):
 		calender.append(0)
-	for k in range(people):
+	for j in range(people):
 		next_bday = random.randint(1, days)
 		if calender[next_bday] == 1:
 			hits += 1

@@ -45,7 +45,8 @@ def quadratic(a, b, c):
 x1, x2 = quadratic(5, 6, 1)
 print(x1, x2)
 
-intercepts = quadratic(5, 6, 1)       # DON'T do this, unpack tuple into individual variables
+intercepts = quadratic(5, 6, 1)       '''DON'T do this, unpack tuple 
+                                         into individual variables'''
 print(intercepts[0], intercepts[1])
 """
 

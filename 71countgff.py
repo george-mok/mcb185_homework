@@ -13,9 +13,11 @@ with gzip.open(sys.argv[1], 'rt') as fp:
 		count[feature] += 1
 # for f, n in count.items(): print(f, n)
 # for k in sorted(count): print(k, count[k]) # sort by keys
-for k, v in sorted(count.items(), key = lambda item: item[1]):  # sort by values
+for k, v in sorted(count.items(), key = lambda item: item[1]):  
 	print(k, v)
-	
+# sort by values ^
+
+
 """
 lambda functions
 def by_value(tuple):

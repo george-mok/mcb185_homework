@@ -30,7 +30,8 @@ def find_orfs(seq, frame, strand):
 				
 				if (stop - start) >= minlength:
 					if strand == '+': 
-						orfs.append((start + frame + 1, stop + frame + 1, strand))  # +1 since start at i = 0
+						orfs.append((start + frame + 1, stop + frame + 1, strand))
+						# +1 since start at i = 0
 					else:
 						orfs.append((len(seq) - stop, len(seq) - start, strand))
 				i = j  # new start pos

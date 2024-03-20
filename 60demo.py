@@ -2,6 +2,12 @@
 
 import sys
 import mcb185
+import dogma
+
+"""
+for defline, seq in mcb185.read_fasta(sys.argv[1]):
+	print(defline[:30], seq[:40], len(seq))
+"""
 
 """
 for defline, seq in mcb185.read_fasta(sys.argv[1]):
@@ -69,10 +75,11 @@ for defline, seq in mcb185.read_fasta(sys.argv[1]):
 """
 
 # Sliding Window
-
+"""
 seq = 'ACCGTTAGCTATTCAGGGATA'
 w = 10
 s = 1
 for i in range(0, len(seq) -w +1, s):
 	subseq = seq[i:i+w]
 	print(subseq)
+"""

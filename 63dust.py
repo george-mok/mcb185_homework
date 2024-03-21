@@ -19,6 +19,8 @@ def entropy(a, c, g, t):
 	else: pt1 = pt * math.log2(pt)
 	return -1 * (pa1 + pc1 + pg1 + pt1)
 
+# soft link E. coli genome -> ecoli.fna.gz
+
 path   = sys.argv[1]
 w      = int(sys.argv[2])    # window size
 h      = float(sys.argv[3])  # entropy threshold

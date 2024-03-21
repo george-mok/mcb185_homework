@@ -23,14 +23,25 @@ for defline, seq in mcb185.read_fasta(path):
 		if (g+c) > 0: skew = (g-c)/(g+c)
 		else:         skew = 0
 	
-		#print(i, f'gccomp:{comp:.3f}', f'gcskew:{skew:.3f}')
-
+		print(i, f'gccomp:{comp:.3f}', f'gcskew:{skew:.3f}')
+"""
+62time
+real	0m39.806s
+user	0m20.671s
+sys		0m10.312s
 
 # 61skewer for comparison
-"""
+
 for defline, seq in mcb185.read_fasta(path):
 	for i in range(len(seq) - w + 1):
 		s = seq[i:i+w]
 		comp = dogma.gc_comp(s)
 		skew = dogma.gc_skew(s)
+		print(i, f'gccomp:{comp:.3f}', f'gcskew:{skew:.3f}')
+
+61time
+for size 1000
+real	0m43.619s
+user	0m35.453s
+sys		0m8.046s
 """

@@ -37,12 +37,9 @@ for defline, seq in mcb185.read_fasta(path):
 
 	newseq = list(seq)
 
-	for i in range(len(seq) -w +1):
+	for i in range(1, len(seq) -w):
 		drop = seq[i]
-		if i > len(seq) -w +1:
-			pickup = seq[i+w]
-		else:
-			pickup = seq[i-1+w]
+		pickup = seq[i+w]
 		
 		if drop == 'A': a -= 1
 		if drop == 'C': c -= 1
@@ -55,7 +52,7 @@ for defline, seq in mcb185.read_fasta(path):
 		
 		if entropy(a, c, g, t) <= h:
 			for j in range(w):
-				newseq[i+j] = 'N'
+				newseq[i+j+1] = 'N'
 	maskedseq = ''.join(newseq)
 	for i in range(0, len(maskedseq), 60):
 		print(maskedseq[i:i+60])
